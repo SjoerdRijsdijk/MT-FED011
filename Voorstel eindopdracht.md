@@ -14,9 +14,9 @@ De volgende object zullen voorkomen:
     - Naam
     - Score
 
-- Het te raden woord - Dit object bevat de volgende properties
+- Het te raden woord - Dit object bevat de volgende properties:
     - Antwoord
     - Lengte
     - Moeilijksheidgraad
 
-- De interactieve letters - Dit object bevat de volgende properties
+- De interactieve letters - Dit object bevat de volgende properties:
