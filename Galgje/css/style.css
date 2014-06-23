@@ -1,0 +1,51 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#word{
+    float: left;
+    width: 49%;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0.25%;
+    background: white;
+}
+
+#hangman{
+    float: left;
+    width: 49%;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0.25%;
+    background: white;
+}
+
+#letterBox{
+    clear: both;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid black;
+}
+
+.letter{
+    float: left;
+    font-size: 30px;
+    color: white;
+    background: dodgerblue;
+    padding: 2px;
+    border: 1px solid black;
+    margin: 0 2px;
+}
+
+.letter:hover{
+    cursor: pointer;
+}
+
+.red{
+    background : red;
+}

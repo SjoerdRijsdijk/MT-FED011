@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman - Project</title>
+
+    <!--Template(s)-->
+    <script id="letterTemplate" type="text/template">
+        <%= letter %>
+    </script>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//underscorejs.org/underscore.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="js/models/Letter.js"></script>
+    <script type="text/javascript" src="js/collections/Letters.js"></script>
+    <script type="text/javascript" src="js/views/LetterBoardView.js"></script>
+    <script type="text/javascript" src="js/views/LetterView.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+<div id="wrapper">
+
+    <div id="word">
+        a
+    </div>
+
+    <div id="hangman">
+        b
+    </div>
+
+    <div id="letterBox">
+    </div>
+</div>
+
+
+
+</body>
+</html>
