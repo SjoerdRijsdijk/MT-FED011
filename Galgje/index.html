@@ -14,7 +14,12 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
     <script type="text/javascript" src="js/init.js"></script>
     <script type="text/javascript" src="js/models/Letter.js"></script>
+    <script type="text/javascript" src="js/models/Word.js"></script>
+    <script type="text/javascript" src="js/models/Hangman.js"></script>
     <script type="text/javascript" src="js/collections/Letters.js"></script>
+    <script type="text/javascript" src="js/views/HangmanView.js"></script>
+    <script type="text/javascript" src="js/views/WordBoxView.js"></script>
+    <script type="text/javascript" src="js/views/WordView.js"></script>
     <script type="text/javascript" src="js/views/LetterBoardView.js"></script>
     <script type="text/javascript" src="js/views/LetterView.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
@@ -23,19 +28,21 @@
 <body>
 <div id="wrapper">
 
-    <div id="word">
-        a
+    <div id="wordBox">
+
     </div>
 
-    <div id="hangman">
-        b
-    </div>
+    <canvas id="hangmanCanvas">
+
+    </canvas>
 
     <div id="letterBox">
     </div>
 </div>
 
-
+<div id="copyrights">
+    Made by Sjoerd Rijsdijk
+</div>
 
 </body>
 </html>
